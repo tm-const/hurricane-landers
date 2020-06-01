@@ -18,7 +18,47 @@
       /*# sourceMappingURL=bootstrap.min.css.map */
     </style>
     <!-- Custom styles for this template -->
-    <link href="form-validation.css" rel="stylesheet">
+    <style>
+    *,body,html {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+    hr {border:#daebeb 2px solid;}
+    a {
+      text-transform: uppercase;
+      text-decoration:underline;
+      font-weight:bold;
+    }
+    .container {
+      max-width:1440px;
+    }
+    h1, .txt-p, .card-title-t {
+      color:#0c495b;
+    }
+    h1 {
+      font-size:50px;
+      line-height:44px;
+    }
+    h2 {
+      font-size:30;
+      line-height:36px;
+    }
+    .txt-p {
+      font-size:22px;
+      line-height:42px;
+    }
+    .card {border:none;}
+    .card-bg-color {
+      background-color:#f8f7f3;
+      padding: 40px;
+    }
+    .card-title-t {
+      font-weight:bold;
+      text-transform:uppercase;
+    }
+    h2.txt-orange-title {
+      font-size:30;
+      line-height:36px;
+      color:#fb7b56;
+    }
+    </style>
   </head>
   <body>
     <div>
@@ -26,35 +66,35 @@
     </div>
     <div class="container">
       <div class="py-5">
-        <p class="lead">With hurricane season starting June 1st in the Atlantic and the Caribbean, it is important that all of our patients be prepared long before the storm. Signing up for hurricane evacuation assistance, trimming trees, making plans for your pets, and preparing an emergency kit are some of the tasks that should be completed by the time hurricane season begins. Conviva is here to help you before, during and after any upcoming storms.</p>
+        <p class="txt-p">With hurricane season starting June 1st in the Atlantic and the Caribbean, it is important that all of our patients be prepared long before the storm. Signing up for hurricane evacuation assistance, trimming trees, making plans for your pets, and preparing an emergency kit are some of the tasks that should be completed by the time hurricane season begins. Conviva is here to help you before, during and after any upcoming storms.</p>
       </div>
       <div class="py-5">
-        <h2>Difference between a Hurricane Watch and a Hurricane Warning</h2>
-        <p>There are two kinds of alerts:</p>
+        <h1 class="lg-title">Difference between a Hurricane Watch and a Hurricane Warning</h1>
+        <h2 class="txt-orange-title">There are two kinds of alerts:</h2>
       </div>
       <div class="card-deck mb-3">
-        <div class="card mb-6 box-shadow">
-          <div class="card-body">
+        <div class="card mb-6">
+          <div class="card-body card-bg-color">
             <div class="row">
               <div class="col-md-2">
                 <img style="width:100%;" src="https://conviva-doctors.s3.amazonaws.com/Icon_Hurricane-Watch.png"/>
               </div>
               <div class="col-md-10">
-                <h4 class="mb-3">HURRICANE WATCH</h4>
-                <p>Means hurricane conditions (sustained winds of 74 miles per hour [mph] or higher) are possible in a stated area. Experts announce hurricane watches 48 hours before they expect tropical-storm-force winds (sustained winds of 39 to 73 mph) to start.</p>
+                <p class="card-title-t">HURRICANE WATCH</p>
+                <p class="txt-p">Means hurricane conditions (sustained winds of 74 miles per hour [mph] or higher) are possible in a stated area. Experts announce hurricane watches 48 hours before they expect tropical-storm-force winds (sustained winds of 39 to 73 mph) to start.</p>
               </div>
             </div>
           </div>
         </div>
         <div class="card mb-6 box-shadow">
-          <div class="card-body">
+          <div class="card-body card-bg-color">
             <div class="row">
               <div class="col-md-2">
                 <img style="width:100%;" src="https://conviva-doctors.s3.amazonaws.com/Icon_Hurricane-Warning.png"/>
               </div>
               <div class="col-md-10">
-                <h4 class="mb-3">HURRICANE WARNING</h4>
-                <p>Is more serious. It means hurricane-force winds are expected in a stated area. Experts issue these warnings 36 hours before tropical-storm-force winds are expected in the area to give people enough time to prepare for the storm.</p>
+                <p class="card-title-t">HURRICANE WARNING</p>
+                <p class="txt-p">Is more serious. It means hurricane-force winds are expected in a stated area. Experts issue these warnings 36 hours before tropical-storm-force winds are expected in the area to give people enough time to prepare for the storm.</p>
               </div>
             </div>
           </div>
@@ -64,10 +104,10 @@
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
           <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <h4 class="mb-3">Stay Informed</h4>
-            <p>For more information, please visit the national and local resources below.</p>
+            <h2 class="orange-heading-title">Stay Informed</h2>
+            <p class="txt-p">For more information, please visit the national and local resources below.</p>
             <br />
-            <h5 class="mb-3">National</h5>
+            <h2 class="txt-orange-title">National</h2>
             <hr />
             <div class="row">
               <div class="col-md-4 order-md-2 mb-4">
@@ -79,67 +119,69 @@
               <div class="col-md-4 order-md-2 mb-4">
                 <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Logo-CDC.jpg"/>
               </div>
+              <div class="col-md-6 order-md-2 mb-4">
+                <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Logo-AmericanRedCross.jpg"/>
+              </div>
+              <div class="col-md-6 order-md-2 mb-4">
+                <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Logo-HomelandSecurity.jpg"/>
+              </div>
             </div>
-
             <div class="row">
               <div class="col-md-3">
                 <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Graphic-FloridaMap.png"/>
               </div>
               <div class="col-md-9">
-                <h4 class="mb-3">Florida</h4>
+                <h2 class="txt-orange-title">Florida</h2>
                 <hr />
               </div>
             </div>
-            Florida Division of Emergency Management
+            <h3>Florida Division of Emergency Management</h3>
             <ul>
-              <li>Shelters</li>
-              <li>Emergency Management by County</li>
-              <li>Plan and Prepare</li>
-              <li>Weather Outlook</li>
+              <li class="txt-p">Shelters</li>
+              <li class="txt-p">Emergency Management by County</li>
+              <li class="txt-p">Plan and Prepare</li>
+              <li class="txt-p">Weather Outlook</li>
             </ul>
-            Florida Insurance Council 
-            Florida Special Needs Registry
-
-
+            <p class="txt-p">Florida Insurance Council</p>
+            <p class="txt-p">Florida Special Needs Registry</p>
             <div class="row">
               <div class="col-md-3">
                 <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Graphic-TexasMap.png"/>
               </div>
               <div class="col-md-9">
-                <h4 class="mb-3">Texas</h4>
+                <h2 class="txt-orange-title">Texas</h2>
                 <hr />
               </div>
             </div>
             <ul>
-              <li>Texas Hurricane Center</li>
-              <li>Texas Division of Emergency Management</li>
-              <li>Texas Extension Disaster Education Network - Hurricanes</li>
-              <li>Texas Flood Maps</li>
-              <li>State of Texas Emergency Assistance Registry (STEAR)</li>
+              <li class="txt-p">Texas Hurricane Center</li>
+              <li class="txt-p">Texas Division of Emergency Management</li>
+              <li class="txt-p">Texas Extension Disaster Education Network - Hurricanes</li>
+              <li class="txt-p">Texas Flood Maps</li>
+              <li class="txt-p">State of Texas Emergency Assistance Registry (STEAR)</li>
             </ul>
-
             <div class="row">
               <div class="col-md-12">
-                <h4 class="mb-3">Media Contact Information</h4>
+                <h2 class="txt-orange-title">Media Contact Information</h2>
                 <hr />
               </div>
             </div>
-            <p>Jose Boza and Tyler Sminkey</p>
-            <p>Boza PR & Digital Media Agency</p>
-            <strong>Phone:</strong> 786-390-8510<br />
-            <strong>Email:</strong> <a href="mailto:jboza@boza-agency.com">jboza@boza-agency.com</a> and <a href="mailto:tsminkey@boza-agency.com">tsminkey@boza-agency.com</a>
+            <p class="txt-p">Jose Boza and Tyler Sminkey</p>
+            <p class="txt-p">Boza PR & Digital Media Agency</p>
+            <p class="txt-p"><strong>Phone:</strong> 786-390-8510</p>
+            <p class="txt-p"><strong>Email:</strong> <a href="mailto:jboza@boza-agency.com">jboza@boza-agency.com</a> and <a href="mailto:tsminkey@boza-agency.com">tsminkey@boza-agency.com</a></p>
           </h4>
         </div>
         <div class="col-md-8 order-md-1 pr-4" style="border-right:1px solid #e2e3e4;">
           <h4 class="mb-3">Emergency Preparedness Information</h4>
           <img style="width:100%;" src="https://conviva-doctors.s3.amazonaws.com/Home_Emergency-Preparedness-Information.jpg"/>
-          <h4 class="mb-3">Telemedicine</h4>
-          <p>Your care is our top priority. To maximize our patient’s safety and wellbeing during an emergency situation, Conviva will continue to offer Telemedicine visits. Telemedicine is the use of a phone call to diagnose or treat patients who are not physically in front of a doctor.</p>
-          <p>To find your doctors phone number, CLICK HERE to find a complete list of our Conviva Care Centers in Florida and Texas.</p>
+          <h2 class="txt-orange-title">Telemedicine</h2>
+          <p class="txt-p">Your care is our top priority. To maximize our patient’s safety and wellbeing during an emergency situation, Conviva will continue to offer Telemedicine visits. Telemedicine is the use of a phone call to diagnose or treat patients who are not physically in front of a doctor.</p>
+          <p class="txt-p">To find your doctors phone number, <a href="" target="_blank" rel="noreferrer noopener nofollow">CLICK HERE</a> to find a complete list of our Conviva Care Centers in Florida and Texas.</p>
           <br />
-          <h4 class="mb-3">Downloads</h4>
+          <h2 class="txt-orange-title">Downloads</h2>
           <div class="card-deck mb-3">
-            <div class="card mb-6 box-shadow">
+            <div class="card mb-6 box-shadow ">
               <div class="card-body">
                 <img style="width:100%;" src="https://conviva-doctors.s3.amazonaws.com/Graphic_EmergencyChecklistIcon.png"/>
                 <p>
@@ -174,7 +216,7 @@
               </div>
             </div>
           </div>
-          <h2 class="mb-3">News Advisory</h2>
+          <h2 class="txt-orange-title">News Advisory</h2>
           <div class="row">
             <div class="col-md-2">
               <img style="width:100%;" src="https://conviva-doctors.s3.amazonaws.com/Graphic_NewsAdvisoryQuotes_1.png"/>
@@ -183,7 +225,7 @@
               <p>XYZ Conviva Care Centers Closing in XYZ in Preparation for Arrival of Hurricane/Tropical Storm XYZ</p>
             </div>
           </div>
-          <p>Due to the pending landfall of Hurricane XYZ, Conviva will close its XYZ centers and offices in XYZ as of insert date and time. Patients and community members should visit INSERT LINK to learn more about how to safely prepare for before, during and after the storm visits our area. If you have any immediate questions, call your Conviva Care Center.</p>
+          <p class="txt-p">Due to the pending landfall of Hurricane XYZ, Conviva will close its XYZ centers and offices in XYZ as of insert date and time. Patients and community members should visit INSERT LINK to learn more about how to safely prepare for before, during and after the storm visits our area. If you have any immediate questions, call your Conviva Care Center.</p>
         </div>
       </div>
     </div>
@@ -191,31 +233,7 @@
       ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-    <script>
-      // Example starter JavaScript for disabling form submissions if there are invalid fields
-      (function() {
-        'use strict';
-      
-        window.addEventListener('load', function() {
-          // Fetch all the forms we want to apply custom Bootstrap validation styles to
-          var forms = document.getElementsByClassName('needs-validation');
-      
-          // Loop over them and prevent submission
-          var validation = Array.prototype.filter.call(forms, function(form) {
-            form.addEventListener('submit', function(event) {
-              if (form.checkValidity() === false) {
-                event.preventDefault();
-                event.stopPropagation();
-              }
-              form.classList.add('was-validated');
-            }, false);
-          });
-        }, false);
-      })();
-    </script>
   </body>
 </html>
