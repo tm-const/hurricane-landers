@@ -20,7 +20,7 @@
     <!-- Custom styles for this template -->
     <style>
     *,body,html {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
-    hr {border:#daebeb 2px solid;}
+    hr {border-bottom:#daebeb 2px solid;border-top:none;}
     a {
       text-transform: uppercase;
       text-decoration:underline;
@@ -46,7 +46,7 @@
     }
     .card {border:none;}
     .card-bg-color {
-      background-color:#f8f7f3;
+      background-color:#f8f7f4;
       padding: 40px;
     }
     .card-title-t {
@@ -57,6 +57,17 @@
       font-size:30;
       line-height:36px;
       color:#fb7b56;
+    }
+    a.btn.btn-primary {
+      background:#0c495b;
+      text-decoration:none;
+      text-transform:initial;
+      border:none;
+      width:100%;
+    }
+    hr.big-break {
+      margin-top:150px;
+      margin-bottom:75px;
     }
     </style>
   </head>
@@ -100,35 +111,35 @@
           </div>
         </div>
       </div>
-      <hr />
+      <hr class="big-break"/>
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
           <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <h2 class="orange-heading-title">Stay Informed</h2>
+            <h1>Stay Informed</h1>
             <p class="txt-p">For more information, please visit the national and local resources below.</p>
             <br />
             <h2 class="txt-orange-title">National</h2>
             <hr />
             <div class="row">
               <div class="col-md-4 order-md-2 mb-4">
-                <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Logo-NOAA.jpg"/>
+                <img src="https://conviva-doctors.s3.amazonaws.com/Logo-NOAA.jpg"/>
               </div>
               <div class="col-md-4 order-md-2 mb-4">
-                <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Logo-FEMA.jpg"/>
+                <img src="https://conviva-doctors.s3.amazonaws.com/Logo-FEMA.jpg"/>
               </div>
               <div class="col-md-4 order-md-2 mb-4">
-                <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Logo-CDC.jpg"/>
+                <img src="https://conviva-doctors.s3.amazonaws.com/Logo-CDC.jpg"/>
               </div>
               <div class="col-md-6 order-md-2 mb-4">
-                <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Logo-AmericanRedCross.jpg"/>
+                <img src="https://conviva-doctors.s3.amazonaws.com/Logo-AmericanRedCross.jpg"/>
               </div>
               <div class="col-md-6 order-md-2 mb-4">
-                <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Logo-HomelandSecurity.jpg"/>
+                <img src="https://conviva-doctors.s3.amazonaws.com/Logo-HomelandSecurity.jpg"/>
               </div>
             </div>
             <div class="row">
               <div class="col-md-3">
-                <img style="width:100%" src="https://conviva-doctors.s3.amazonaws.com/Graphic-FloridaMap.png"/>
+                <img src="https://conviva-doctors.s3.amazonaws.com/Graphic-FloridaMap.png"/>
               </div>
               <div class="col-md-9">
                 <h2 class="txt-orange-title">Florida</h2>
@@ -172,8 +183,8 @@
             <p class="txt-p"><strong>Email:</strong> <a href="mailto:jboza@boza-agency.com">jboza@boza-agency.com</a> and <a href="mailto:tsminkey@boza-agency.com">tsminkey@boza-agency.com</a></p>
           </h4>
         </div>
-        <div class="col-md-8 order-md-1 pr-4" style="border-right:1px solid #e2e3e4;">
-          <h4 class="mb-3">Emergency Preparedness Information</h4>
+        <div class="col-md-8 order-md-1 pr-4" style="border-right:#daebeb 2px solid;">
+          <h1>Emergency Preparedness Information</h1>
           <img style="width:100%;" src="https://conviva-doctors.s3.amazonaws.com/Home_Emergency-Preparedness-Information.jpg"/>
           <h2 class="txt-orange-title">Telemedicine</h2>
           <p class="txt-p">Your care is our top priority. To maximize our patient’s safety and wellbeing during an emergency situation, Conviva will continue to offer Telemedicine visits. Telemedicine is the use of a phone call to diagnose or treat patients who are not physically in front of a doctor.</p>
@@ -182,10 +193,10 @@
           <h2 class="txt-orange-title">Downloads</h2>
           <div class="card-deck mb-3">
             <div class="card mb-6 box-shadow ">
-              <div class="card-body">
-                <img style="width:100%;" src="https://conviva-doctors.s3.amazonaws.com/Graphic_EmergencyChecklistIcon.png"/>
+              <div class="card-body text-center">
+                <img class="mb-5" src="https://conviva-doctors.s3.amazonaws.com/Graphic_EmergencyChecklistIcon.png"/>
                 <p>
-                  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Conviva Emergency Checklist for Seniors</a>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Emergency Checklist for Seniors</a>
                 </p>
                 <div class="row">
                   <div class="col">
@@ -199,8 +210,8 @@
               </div>
             </div>
             <div class="card mb-6 box-shadow">
-              <div class="card-body">
-                <img style="width:100%;" src="https://conviva-doctors.s3.amazonaws.com/Graphic_CCC-Phone-NumberIcon.png"/>
+              <div class="card-body text-center">
+                <img class="mb-5" style="width:151px;" src="https://conviva-doctors.s3.amazonaws.com/Graphic_CCC-Phone-NumberIcon.png"/>
                 <p>
                   <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">Conviva Care Center Phone List</a>
                 </p>
@@ -216,16 +227,16 @@
               </div>
             </div>
           </div>
-          <h2 class="txt-orange-title">News Advisory</h2>
+          <h1>News Advisory</h1>
           <div class="row">
             <div class="col-md-2">
               <img style="width:100%;" src="https://conviva-doctors.s3.amazonaws.com/Graphic_NewsAdvisoryQuotes_1.png"/>
             </div>
             <div class="col-md-10">
-              <p>XYZ Conviva Care Centers Closing in XYZ in Preparation for Arrival of Hurricane/Tropical Storm XYZ</p>
+              <h2 class="txt-orange-title">XYZ Conviva Care Centers Closing in XYZ in Preparation for Arrival of Hurricane/Tropical Storm XYZ</h2>
             </div>
           </div>
-          <p class="txt-p">Due to the pending landfall of Hurricane XYZ, Conviva will close its XYZ centers and offices in XYZ as of insert date and time. Patients and community members should visit INSERT LINK to learn more about how to safely prepare for before, during and after the storm visits our area. If you have any immediate questions, call your Conviva Care Center.</p>
+          <p class="txt-p">Due to the pending landfall of Hurricane XYZ, Conviva will close its XYZ centers and offices in XYZ as of insert date and time. Patients and community members should visit <a href="" rel="nofollow noreferrer noopener" target="_blank">INSERT LINK</a> to learn more about how to safely prepare for before, during and after the storm visits our area. If you have any immediate questions, call your Conviva Care Center.</p>
         </div>
       </div>
     </div>
